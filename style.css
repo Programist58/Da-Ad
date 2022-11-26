@@ -1,0 +1,104 @@
+body {
+    font-family: 'Andika', sans-serif;
+}
+
+/* ФОн */
+body {
+    color: #fff; /*Цвет текста на странице*/
+    background-attachment: fixed; /* Фон страницы фиксируется */
+    background-repeat: repeat-x; /* Изображение повторяется по горизонтали */
+    background-size: 100%;
+}
+
+
+
+
+/* Кнопка */
+.button {
+    border-radius: 45px;
+    background-color: #0cf5f5;
+    border: none;
+    color: #ffffff;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    float: left ;
+    
+  }
+  
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+
+
+
+/* Карточка   */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 322px;
+    margin: auto;
+    text-align: center; 
+}
+
+.title {
+    color: rgb(37, 186, 206);
+    font-size: 18px;
+}
+
+button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: rgb(0, 0, 0);
+    background-color: rgb(6, 247, 194);
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    font-size: 22px;
+    color: rgb(0, 225, 255);
+}
+
+button:hover, a:hover {
+    opacity: 0.7;
+}
+
+
+
+
+
+
+
+
